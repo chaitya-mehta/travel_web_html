@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+    width: 100%;
+    background-color: rgba(99, 192, 199, 0.308);
+  }
+  
+  .a {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    image-resolution: 100%;
+  }
+  
+  .a img {
+    vertical-align: middle;
+    width: 100%;
+}
+  
+  .a .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f3eeee;
+    width: 100%;
+    padding: 20px;
+    font: weight 1000px;;
+  }
